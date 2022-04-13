@@ -23,7 +23,7 @@ $ npm start
 ```
 
 ### Additional Info:
-
+Link figma:https://www.figma.com/file/qfWxqZ7xNCQ9Ch4Xvg2icl/A-blog-template-(Community)?node-id=0%3A1
 
 
 Your browser will open....Now edit `index.html` and/or `css/main.css` and/or `js/main.js` file inside `app` directory...:heart: :heart: :heart:
