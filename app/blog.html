@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Article</title>
-    <link rel="stylesheet" href="./css/blog.css" />
+    <link rel="stylesheet" href="./css/blog1.css" />
   </head>
   <body>
     <nav>
       <img src="./images/NORDIC ROSE White.svg" alt="logo" class="logo" />
-      <div class="menu">
+      <div class="menu" id="desktop">
         <a href="#blog" class="menu-items menu-blog">BLOG</a>
         <a href="#about" class="menu-items">ABOUT</a>
         <a href="#links" class="menu-items">LINKS</a>
-        <a href="#projects" class="menu-items">PROJECTS</a>
+        <a href="#projects" class="menu-items" id="projects">PROJECTS</a>
       </div>
       <!--The three bar menu-->
       <div class="menu-toggle" id="mobile-menu">
@@ -44,13 +44,13 @@
               </div>
             </div>
             <div class="share">
-              <div class="facebook">
+              <div class="share-item">
                 <img src="./images/facebook.png" alt="facebook share" />
               </div>
-              <div class="twitter">
+              <div class="share-item">
                 <img src="./images/twitter.png" alt="twitter share" />
               </div>
-              <div class="calling" id="mobile">
+              <div class="share-item" id="mobile">
                 <img src="./images/Calling.png" alt="" />
               </div>
             </div>
@@ -61,9 +61,8 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu
               velit tempus erat egestas efficitur. In hac habitasse platea
               dictumst. Fusce a nunc eget ligula suscipit finibus. Aenean
-              pharetra quis lacus at viverra.
-            </p>
-            <p id="desktop">
+              pharetra quis lacus at viverra. <br />
+              <br />
               Class aptent taciti sociosqu ad litora torquent per conubia
               nostra, per inceptos himenaeos. Aliquam quis posuere ligula. In eu
               dui molestie, molestie lectus eu, semper lectus.
@@ -83,8 +82,7 @@
               platea dictumst. Fusce a nunc eget ligula suscipit finibus. Aenean
               pharetra quis lacus at viverra. Class aptent taciti sociosqu ad
               litora torquent per conubia nostra, per inceptos himenaeos.
-            </p>
-            <p id="desktop">
+              <br /><br />
               Morbi efficitur auctor metus, id mollis lorem pellentesque id.
               Nullam posuere maximus dui et fringilla.
             </p>
@@ -104,6 +102,7 @@
               </figcaption>
             </div>
           </div>
+
           <!--Paragraph 2-->
           <div class="para2">
             <p id="desktop">
@@ -140,24 +139,23 @@
               know what in mind, considering that sometimes totally bonkers
               stuff might be highly relevant if it has the right kind of
               thinking behind it.
-            </p>
-            <p id="mobile-para">
+              <br /><br />
               Luckily, in the middle of all that, there are some pockets of
               content that offer delightfully valuable contrast to cursory
               wisdom in some of the established channels.
+              <br /><br />Share:
             </p>
-            <p id="mobile-para">Share:</p>
             <!--Share section-->
             <div class="para-share">
-              <div class="para-facebook">
+              <div class="para-share-item">
                 <img src="./images/facebook.png" alt="facebook icon" />
                 <p id="desktop">Share on Facebook</p>
               </div>
-              <div class="para-twitter">
+              <div class="para-share-item">
                 <img src="./images/twitter.png" alt="twitter icon" />
                 <p id="desktop">Share on Twitter</p>
               </div>
-              <div id="mobile" class="para-calling">
+              <div id="mobile" class="para-share-item">
                 <img src="./images/Calling.png" alt="" />
               </div>
             </div>
